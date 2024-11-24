@@ -1,0 +1,29 @@
+<!doctype html>
+<html>
+	<head>
+		<title>Webxdc App Template</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width" />
+		<script src="webxdc.js"></script>
+		<style type="text/css">
+			body {
+				font-family: system-ui, sans-serif;
+			}
+
+			.device-name {
+				font-weight: bold;
+			}
+		</style>
+	</head>
+	<body>
+		<p id="your-device-name"></p>
+		<form>
+			<label for="message">Message:</label>
+			<input name="message" type="text" autofocus required autocomplete="off" />
+			<button type="submit" name="submit">Submit</button>
+		</form>
+		<hr />
+		<div id="output"></div>
+		<script type="module" src="src/index.js"></script>
+	</body>
+</html>
