@@ -8,6 +8,14 @@
 	"keywords": [
 		"webxdc"
 	],
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/achou11/webxdc-app-template.git"
+	},
+	"bugs": {
+		"url": "https://github.com/achou11/webxdc-app-template/issues"
+	},
+	"homepage": "https://github.com/achou11/webxdc-app-template",
 	"type": "module",
 	"scripts": {
 		"vite:dev": "vite dev",
