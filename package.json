@@ -18,13 +18,14 @@
 	"homepage": "https://github.com/achou11/webxdc-app-template",
 	"type": "module",
 	"scripts": {
-		"vite:dev": "vite dev",
-		"vite:build": "vite build",
+		"prepare": "husky",
 		"lint:format": "prettier --check --cache .",
 		"lint:eslint": "eslint --cache .",
 		"lint": "pnpm run \"/^lint:.*/\"",
-		"types": "tsc .",
-		"prepare": "husky"
+		"types": "tsc",
+		"vite:dev": "vite dev",
+		"vite:build": "vite build",
+		"webxdc:emulator": "webxdc-dev run http://localhost:5173"
 	},
 	"devDependencies": {
 		"@eslint/compat": "^1.2.3",
@@ -34,6 +35,7 @@
 		"@types/node": "^22.9.3",
 		"@webxdc/types": "^2.0.0",
 		"@webxdc/vite-plugins": "^1.1.0",
+		"@webxdc/webxdc-dev": "^0.18.0",
 		"eslint": "^9.15.0",
 		"globals": "^15.12.0",
 		"husky": "^9.1.7",
