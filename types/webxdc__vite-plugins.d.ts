@@ -15,6 +15,6 @@ declare module '@webxdc/vite-plugins' {
 	export function mockWebxdc(path?: string): PluginOption
 	export function legacy(opts?: { targets?: Array<string> }): PluginOption
 
-	export function webxdcViteConfig(options?: PluginOption): PluginOption
+	export function webxdcViteConfig(options?: UserConfig): UserConfig
 	export function webxdcViteConfigNoLegacy(options?: UserConfig): UserConfig
 }
