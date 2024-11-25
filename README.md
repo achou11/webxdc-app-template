@@ -30,6 +30,12 @@ Some commonly used scripts:
   pnpm run vite:dev
   ```
 
+- Start the Webxdc emulator (must have the dev server running already):
+
+  ```sh
+  pnpm run webxdc:emulator
+  ```
+
 - Build the application for distribution:
 
   ```sh
