@@ -1,5 +1,13 @@
-/node_modules
-.eslintcache
+.DS_STORE
 
+# Log files
+pnpm-debug.log*
+.pnpm-debug.log
+
+# Generated directories
+/node_modules
 /dist
 /dist-xdc
+
+# Caches
+.eslintcache
