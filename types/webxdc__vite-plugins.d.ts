@@ -1,6 +1,7 @@
 // TODO: Fix upstream
 declare module '@webxdc/vite-plugins' {
 	import type { PluginOption, UserConfig } from 'vite'
+	export { default as secureContext } from '@vitejs/plugin-basic-ssl'
 
 	export function buildXDC(opts?: {
 		outDir?: string
