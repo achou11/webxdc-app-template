@@ -30,11 +30,7 @@ function init() {
 			data: message,
 			senderName: window.webxdc.selfName,
 		}
-		window.webxdc.sendUpdate(
-			{ payload },
-			`${window.webxdc.selfName} sent message: ${message}`
-		)
-
+		window.webxdc.sendUpdate({ payload }, '')
 		form.reset()
 	})
 
