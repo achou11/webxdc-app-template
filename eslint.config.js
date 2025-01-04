@@ -6,6 +6,9 @@ import tseslint from 'typescript-eslint'
 
 export default tseslint.config(
 	includeIgnoreFile(fileURLToPath(new URL('.gitignore', import.meta.url))),
+	includeIgnoreFile(
+		fileURLToPath(new URL('.git/info/exclude', import.meta.url))
+	),
 	{ files: ['**/*.{js,mjs,cjs,ts,tsx,jsx}'] },
 	{ languageOptions: { globals: { ...globals.browser, ...globals.node } } },
 	pluginJs.configs.recommended,
