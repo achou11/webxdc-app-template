@@ -14,7 +14,7 @@ export default {
 		'^[.]', // relative imports
 	],
 	importOrderParserPlugins: ['typescript', 'jsx'],
-	importOrderTypeScriptVersion: '5.7.2',
+	importOrderTypeScriptVersion: '5.7.3',
 	importOrderCaseSensitive: true,
 	// Configuration for prettier-plugin-jsdoc
 	jsdocCommentLineStrategy: 'keep',
