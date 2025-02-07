@@ -26,7 +26,7 @@
 		"types": "tsc",
 		"vite:dev": "vite dev",
 		"vite:build": "vite build",
-		"webxdc:emulator": "webxdc-dev run http://localhost:5173"
+		"webxdc:emulator": "webxdc-dev run http://localhost:5173 --port 932932"
 	},
 	"devDependencies": {
 		"@eslint/compat": "1.2.6",
