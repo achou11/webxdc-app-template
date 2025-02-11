@@ -20,8 +20,7 @@ Some commonly used scripts:
 - Perform some code checks:
 
   ```sh
-  pnpm run lint # Check formatting and code quality
-  pnpm run types # Check types
+  pnpm run check
   ```
 
 - Start the dev server:
