@@ -17,7 +17,7 @@
 	},
 	"homepage": "https://github.com/achou11/webxdc-app-template",
 	"type": "module",
-	"packageManager": "pnpm@10.3.0",
+	"packageManager": "pnpm@10.4.1",
 	"scripts": {
 		"prepare": "husky",
 		"check:eslint": "eslint --cache .",
