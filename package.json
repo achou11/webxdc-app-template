@@ -26,7 +26,7 @@
 		"check": "pnpm run \"/^check:.*/\"",
 		"dev": "vite dev",
 		"prepare": "husky",
-		"webxdc:emulator": "webxdc-dev run http://localhost:5173 --port 932932"
+		"webxdc:emulator": "webxdc-dev run http://localhost:5173 --port 2468"
 	},
 	"devDependencies": {
 		"@eslint/compat": "1.2.7",
