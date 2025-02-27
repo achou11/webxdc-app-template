@@ -22,8 +22,8 @@
 		"prepare": "husky",
 		"check:eslint": "eslint --cache .",
 		"check:format": "prettier --check --cache .",
+		"check:types": "tsc",
 		"check": "pnpm run \"/^check:.*/\"",
-		"types": "tsc",
 		"vite:dev": "vite dev",
 		"vite:build": "vite build",
 		"webxdc:emulator": "webxdc-dev run http://localhost:5173 --port 932932"
