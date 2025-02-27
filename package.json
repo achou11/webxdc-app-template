@@ -19,13 +19,13 @@
 	"type": "module",
 	"packageManager": "pnpm@10.5.2",
 	"scripts": {
-		"prepare": "husky",
+		"build": "vite build",
 		"check:eslint": "eslint --cache .",
 		"check:format": "prettier --check --cache .",
 		"check:types": "tsc",
 		"check": "pnpm run \"/^check:.*/\"",
-		"vite:dev": "vite dev",
-		"vite:build": "vite build",
+		"dev": "vite dev",
+		"prepare": "husky",
 		"webxdc:emulator": "webxdc-dev run http://localhost:5173 --port 932932"
 	},
 	"devDependencies": {

@@ -26,7 +26,7 @@ Some commonly used scripts:
 - Start the dev server:
 
   ```sh
-  pnpm run vite:dev
+  pnpm run dev
   ```
 
 - Start the Webxdc emulator (must have the dev server running already):
@@ -38,7 +38,7 @@ Some commonly used scripts:
 - Build the application for distribution:
 
   ```sh
-  pnpm run vite:build
+  pnpm run build
   ```
 
 ## License
