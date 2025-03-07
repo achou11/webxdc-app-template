@@ -2,9 +2,9 @@ import { fileURLToPath } from 'url'
 import { includeIgnoreFile } from '@eslint/compat'
 import pluginJs from '@eslint/js'
 import globals from 'globals'
-import tseslint from 'typescript-eslint'
+import pluginTs from 'typescript-eslint'
 
-export default tseslint.config(
+export default pluginTs.config(
 	includeIgnoreFile(fileURLToPath(new URL('.gitignore', import.meta.url))),
 	includeIgnoreFile(
 		fileURLToPath(new URL('.git/info/exclude', import.meta.url))
@@ -13,8 +13,7 @@ export default tseslint.config(
 	{ languageOptions: { globals: { ...globals.browser, ...globals.node } } },
 	pluginJs.configs.recommended,
 	{
-		name: 'typescript',
-		extends: tseslint.configs.recommended,
+		extends: pluginTs.configs.recommended,
 		rules: {
 			'@typescript-eslint/array-type': ['warn', { default: 'generic' }],
 			// Allow unused vars if prefixed with `_` (https://typescript-eslint.io/rules/no-unused-vars/)
