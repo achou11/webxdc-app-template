@@ -2,7 +2,9 @@
 	"compilerOptions": {
 		"allowJs": true,
 		"checkJs": true,
+		"erasableSyntaxOnly": true,
 		"esModuleInterop": true,
+		"incremental": true,
 		"isolatedModules": true,
 		"lib": ["es2022", "dom", "dom.iterable"],
 		"module": "preserve",
