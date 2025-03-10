@@ -1,4 +1,4 @@
-import { fileURLToPath } from 'url'
+import { fileURLToPath } from 'node:url'
 import { includeIgnoreFile } from '@eslint/compat'
 import pluginJs from '@eslint/js'
 import globals from 'globals'
